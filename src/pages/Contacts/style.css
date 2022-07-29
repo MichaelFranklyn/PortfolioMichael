@@ -1,0 +1,13 @@
+.contentContactsPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.divContentContactsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    gap: 50px;
+}

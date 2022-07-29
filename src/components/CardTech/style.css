@@ -1,0 +1,65 @@
+.frontContentCardTech, .backContentCardTech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #171810;
+    height: 22rem;
+    width: 25rem;
+    border-radius: 2rem;
+
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+.frontContentCardTech {
+    align-items: center;
+}
+
+.frontContentCardTech:hover, .backContentCardTech:hover {
+    transform: scale(1.1);
+}
+
+.frontContentCardTech img {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+
+.frontContentCardTech h1 {
+    color: #03fa6e;
+    font-size: 1.8rem;
+}
+
+.frontContentCardTech div {
+    display: flex;
+    gap: 2rem;
+}
+
+.backContentCardTech ul {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+
+    color: #03fa6e;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #03fa6e;
+}
+
+.liBackContentCardTech {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.backContentCardTech li {
+    color: white;
+    font-size: 1.3rem;
+    list-style: circle;
+    text-align: left;
+    color: #03fa6e;
+}
+
+.backContentCardTech span {
+    color: white;
+}

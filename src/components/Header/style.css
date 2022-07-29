@@ -1,0 +1,66 @@
+.contentHeader {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.leftDivHeader {
+    display: flex;
+    align-items: center;
+}
+
+.leftDivHeader img {
+    width: 5rem;
+    cursor: pointer;
+}
+
+.rightDivHeader {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.rightDivHeader ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.rightDivHeader li {
+    color: white;
+    font-size: 1.8rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.rightDivHeader li:hover {
+    color: #03fa6e;
+}
+
+.iconeMenuHeader {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .contentHeader {
+        padding: 0 5%;
+    }
+
+    .leftDivHeader img {
+        width: 4rem;
+    }
+
+    .rightDivHeader {
+        display: none;
+    }
+
+    .iconeMenuHeader {
+        display: flex;
+    }
+
+    .iconeMenuHeader img {
+        width: 2.5rem;
+    }
+}

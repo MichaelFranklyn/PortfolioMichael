@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #272a28;
+
+    overflow-x: hidden !important;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+.buttonGreen {
+    all: unset;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    text-align: center;
+
+    width: 12rem;
+    height: 3rem;
+    background-color: #03fa6e;
+    color: #272a28;
+    border-radius: 8px;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+}
+
+.buttonGreen:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width:600px) {
+    .buttonGreen {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+}

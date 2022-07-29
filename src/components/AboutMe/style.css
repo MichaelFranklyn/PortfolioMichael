@@ -1,0 +1,156 @@
+.contentAboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: white;
+}
+
+.contentAboutMe span {
+    color: #03fa6e;
+}
+
+.profileContentAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 46rem;
+
+    border-left: 3px solid #03fa6e;
+}
+
+.profileContentAboutMe img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #03fa6e;
+}
+
+.profileContentAboutMe h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.profileContentAboutMe h2 {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.profileContentAboutMe div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+.profileContentAboutMe ul {
+    font-size: 1.5rem;
+    color: #03fa6e;
+
+    border-top: 0.1px solid #03fa6e;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.profileContentAboutMe li {
+    font-size: 1.3rem;
+
+    list-style: circle;
+    margin-bottom: 0.5rem;
+}
+
+.profileContentAboutMe a {
+    text-decoration: none;
+    color: #272a28;
+}
+
+.divContentAboutMe {
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.divContentAboutMe h1 {
+    color: #03fa6e;
+}
+
+.divContentAboutMe p {
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+.divSpanContentAboutMe {
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+}
+
+.imgDivSpanContentAboutMe {
+    border-top: 4px solid #03fa6e;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+.imgDivSpanContentAboutMe img {
+    width: 3rem;
+    height: 2rem;
+}
+
+.textDivSpanContentAboutMe {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1.4rem;
+}
+
+.textDivSpanContentAboutMe span{
+    font-size: 1.8;
+}
+
+@media (max-width:600px) {
+    .contentAboutMe {
+        flex-direction: column;
+        gap: 4rem;
+        color: white;
+    }
+
+    .profileContentAboutMe {
+        width: 80%;
+        border-top: 3px solid #03fa6e;
+        border-left: none;
+        padding-top: 1rem;
+    }
+
+    .divContentAboutMe {
+        width: 90%;
+        gap: 3rem;
+    }
+
+    .divContentAboutMe p {
+        font-size: 1.5rem;
+    }
+
+    .textDivSpanContentAboutMe span{
+        font-size: 1.5rem;
+    }
+
+    .divSpanContentAboutMe {
+        gap: 1rem;
+    }
+
+    .imgDivSpanContentAboutMe img {
+        width: 2rem;
+        height: 1.8rem;
+    }
+
+    .textDivSpanContentAboutMe {
+        padding-bottom: 1rem;
+    }
+}

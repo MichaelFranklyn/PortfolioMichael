@@ -1,5 +1,5 @@
-import Header from '../../components/Header';
-import Home from '../../components/Home';
+import Header from '../../components/C_Header';
+import Home from '../../components/C_Home';
 import './style.css';
 
 function HomePage() {

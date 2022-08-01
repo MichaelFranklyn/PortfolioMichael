@@ -1,0 +1,55 @@
+.contentInfoContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contentInfoContacts h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.divContentInfoContacts {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contentInfoContacts img {
+    width: 3.7rem;
+    cursor: pointer;
+}
+
+.contentInfoContacts .iconWhats {
+    width: 4.3rem;
+}
+
+.contentInfoContacts .iconEmail {
+    width: 4.0rem;
+    padding-top: .3rem;
+}
+
+@media (max-width:900px) {
+    .contentInfoContacts {
+        gap: .75rem;
+    }
+
+    .contentInfoContacts h1 {
+        font-size: 2.5rem;
+    }
+
+    .contentInfoContacts img {
+        width: 2.8rem;
+        cursor: pointer;
+    }
+
+    .contentInfoContacts .iconWhats {
+        width: 3.3rem;
+    }
+
+    .contentInfoContacts .iconEmail {
+        width: 3.2rem;
+    }
+}

@@ -6,10 +6,9 @@
     background-image: url('../../assets/Backgrounds/backgroundHorizontal.png');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
     .contentHomePage {
         max-height: 100vh;
         background-image: url('../../assets/Backgrounds/backgroundVertical.png');

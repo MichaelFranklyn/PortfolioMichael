@@ -1,16 +1,16 @@
+import Footer from '../../components/C_Footer';
+import Header from '../../components/C_Header';
+import Projects from '../../components/C_Projects';
 import './style.css';
-import Header from '../../components/Header';
-import Projects from '../../components/Projects';
-import Footer from '../../components/Footer'
 
 function ProjectsPage() {
     return (
         <div className="contentProjectsPage">
-            <Header 
+            <Header
                 pagina='projects'
             />
-            <Projects/>
-            <Footer/>
+            <Projects />
+            <Footer />
         </div>
     );
 }

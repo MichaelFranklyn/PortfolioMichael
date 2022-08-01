@@ -1,8 +1,7 @@
+import Contacts from '../../components/C_Contacts';
+import Header from '../../components/C_Header';
+import InfoContacts from '../../components/C_InfoContacts';
 import './style.css';
-import Header from '../../components/Header';
-import Contacts from '../../components/Contacts';
-import InfoContacts from '../../components/InfoContacts'
-
 
 function ContactsPage() {
     return (

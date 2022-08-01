@@ -1,0 +1,117 @@
+.contentContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.titleContentContacts h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.InputsContentContacts {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: auto;
+    padding: 2.5rem;
+    border-radius: .5rem;
+    border: 1px solid var(--green);
+}
+
+.InputsContentContacts label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.InputsContentContacts input {
+    all: unset;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: var(--white);
+    width: 35rem;
+    height: 4rem;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    border: 1px solid var(--green);
+    box-shadow: 0px 0px 3px var(--white);
+    margin-bottom: 2rem;
+}
+
+.contentContacts textarea {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: var(--white);
+    max-width: 35rem;
+    min-width: 35rem;
+    min-height: 9rem;
+    max-height: 9rem;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--green);
+    background-color: var(--greenHigh);
+    box-shadow: 0px 0px 3px var(--white);
+    border-radius: .5rem;
+}
+
+.InputsContentContacts input:focus,
+.contentContacts textarea:focus {
+    border: 1px solid var(--white);
+}
+
+.InputsContentContacts div {
+    display: flex;
+    justify-content: center;
+}
+
+.InputsContentContacts button {
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 12rem;
+    height: 3rem;
+}
+
+@media (max-width:900px) {
+    .contentContacts {
+        gap: 1.5rem;
+    }
+
+    .titleContentContacts h1 {
+        font-size: 2.5rem;
+    }
+
+    .InputsContentContacts {
+        width: 30rem;
+    }
+
+    .InputsContentContacts label {
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+    }
+
+    .InputsContentContacts input {
+        font-size: 1.1rem;
+        width: 25rem;
+        margin-bottom: 1rem;
+    }
+
+    .contentContacts textarea {
+        max-width: 25rem;
+        min-width: 25rem;
+        min-height: 7rem;
+        max-height: 7rem;
+    }
+
+    .InputsContentContacts button {
+        font-size: 1.4rem;
+        width: 9rem;
+        height: 2.5rem;
+    }
+}

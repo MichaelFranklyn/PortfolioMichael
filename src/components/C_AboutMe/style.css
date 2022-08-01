@@ -1,0 +1,161 @@
+.contentAboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: var(--white);
+    height: 48rem;
+}
+
+.contentAboutMe span {
+    color: var(--green);
+}
+
+.profileContentAboutMe {
+    width: 20%;
+    height: 100%;
+    padding: 1rem;
+    border-left: 3px solid var(--green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileContentAboutMe img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid var(--green);
+}
+
+.profileContentAboutMe h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.profileContentAboutMe h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0.3rem;
+}
+
+.profileContentAboutMe div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 2rem 0;
+}
+
+.profileContentAboutMe ul {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--green);
+    border-top: 0.1px solid var(--green);
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.profileContentAboutMe li {
+    font-size: 1.3rem;
+    font-weight: 300;
+    list-style: circle;
+    margin-bottom: 0.5rem;
+}
+
+.profileContentAboutMe a {
+    text-decoration: none;
+    color: var(--greenHigh);
+}
+
+.divContentAboutMe {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.divContentAboutMe h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.divContentAboutMe p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.divContentAboutMe span {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.divSpanContentAboutMe {
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+}
+
+.imgDivSpanContentAboutMe {
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: 4px solid var(--green);
+}
+
+.imgDivSpanContentAboutMe img {
+    width: 3rem;
+    height: 2rem;
+}
+
+.textDivSpanContentAboutMe {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1.4rem;
+}
+
+@media (max-width:900px) {
+    .contentAboutMe { 
+        height: auto;
+        flex-direction: column;
+    }
+
+    .profileContentAboutMe {
+        width: 80%;
+        border-top: 2px solid var(--green);
+        border-left: none;
+        padding-top: 1rem;
+    }
+
+    .divContentAboutMe {
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .divContentAboutMe p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .divContentAboutMe span {
+        font-size: 1.5rem;
+    }
+
+    .divSpanContentAboutMe {
+        gap: 1rem;
+    }
+
+    .imgDivSpanContentAboutMe img {
+        width: 2.2rem;
+        height: 1.8rem;
+    }
+
+    .textDivSpanContentAboutMe {
+        padding-bottom: 1rem;
+    }
+}

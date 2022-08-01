@@ -1,9 +1,9 @@
-import './style.css';
-import Logo from '../../assets/logoMichael.png'
-import { useNavigate } from "react-router-dom";
-import IconeMenu from '../../assets/menuIcon.png'
-import ModalMenu from '../ModalMenu';
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+import IconLogo from '../../assets/Icons/iconLogo.png';
+import IconMenu from '../../assets/Icons/iconMenu.png';
+import ModalMenu from '../ModalMenu';
+import './style.css';
 
 function Header({ pagina }) {
     const navigateTo = useNavigate();
@@ -13,7 +13,7 @@ function Header({ pagina }) {
         <div className="contentHeader">
 
             <div className="leftDivHeader" onClick={() => navigateTo("/")}>
-                <img src={Logo} alt='logo perfil' />
+                <img src={IconLogo} alt='logo perfil' />
             </div>
 
             <div className="rightDivHeader">
@@ -26,7 +26,8 @@ function Header({ pagina }) {
             </div>
 
             <div className='iconeMenuHeader'>
-                <img src={IconeMenu} alt='icone menu' onClick={() => setOpenModal(true)} />
+                <img src={IconMenu} alt='icone menu' onClick={() => setOpenModal(true)} />
+                <span>Menu</span>
             </div>
 
             {openModal && <ModalMenu
@@ -34,6 +35,7 @@ function Header({ pagina }) {
                 setOpenModal={setOpenModal}
                 pagina={pagina}
             />}
+
         </div>
     );
 }

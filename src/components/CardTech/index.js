@@ -1,13 +1,11 @@
-import './style.css';
 import { useState } from "react";
-
+import './style.css';
 
 function CardTech(props) {
     const [cardOpen, setCardOpen] = useState(true)
 
     return (
         <div className="contentCardTech">
-
             {cardOpen
                 ?
                 <div onMouseOver={() => setCardOpen(!cardOpen)} className='frontContentCardTech'>
@@ -27,7 +25,6 @@ function CardTech(props) {
                             <li key={index}><span>{cont}</span></li>
                         ))}
                     </div>
-
                 </div>}
         </div>
     );

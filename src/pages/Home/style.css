@@ -1,11 +1,9 @@
 .contentHomePage {
-    display: flex;
-    flex-direction: column;
-
     width: 100vw;
     height: 100vh;
-
-    background-image: url('../../assets/background3.png');
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/Backgrounds/backgroundHorizontal.png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -13,8 +11,7 @@
 
 @media (max-width:600px) {
     .contentHomePage {
-        background-image: url('../../assets/backgroundVertical1.png');
-        background-size: cover;
-        background-repeat: no-repeat;
+        max-height: 100vh;
+        background-image: url('../../assets/Backgrounds/backgroundVertical.png');
     }
 }

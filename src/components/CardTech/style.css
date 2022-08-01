@@ -1,14 +1,16 @@
-.frontContentCardTech, .backContentCardTech {
+.frontContentCardTech,
+.backContentCardTech {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 
-    background-color: #171810;
     height: 22rem;
     width: 25rem;
-    border-radius: 2rem;
-
     padding: 0 2rem;
+    border-radius: 2rem;
+    background-color: var(--greenDark);
+
     cursor: pointer;
 }
 
@@ -16,19 +18,9 @@
     align-items: center;
 }
 
-.frontContentCardTech:hover, .backContentCardTech:hover {
-    transform: scale(1.1);
-}
-
-.frontContentCardTech img {
-    width: 6rem;
-    height: 6rem;
-    margin-bottom: 1rem;
-}
-
-.frontContentCardTech h1 {
-    color: #03fa6e;
-    font-size: 1.8rem;
+.frontContentCardTech:hover,
+.backContentCardTech:hover {
+    transform: scale(1.08);
 }
 
 .frontContentCardTech div {
@@ -36,14 +28,20 @@
     gap: 2rem;
 }
 
-.backContentCardTech ul {
-    display: flex;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
+.frontContentCardTech img {
+    width: 6rem;
+    height: 6rem;
+}
 
-    color: #03fa6e;
-    font-size: 1.5rem;
-    border-bottom: 1px solid #03fa6e;
+.frontContentCardTech h1, .backContentCardTech ul {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.backContentCardTech ul {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--green);
 }
 
 .liBackContentCardTech {
@@ -53,13 +51,13 @@
 }
 
 .backContentCardTech li {
-    color: white;
     font-size: 1.3rem;
-    list-style: circle;
+    font-weight: 300;
     text-align: left;
-    color: #03fa6e;
+    list-style: circle;
+    color: var(--green);
 }
 
 .backContentCardTech span {
-    color: white;
+    color: var(--white);
 }

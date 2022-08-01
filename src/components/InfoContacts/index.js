@@ -1,8 +1,8 @@
 import './style.css';
-import IconGithub from '../../assets/Icons/github.svg'
-import IconLinkedin from '../../assets/Icons/linkedin.svg'
-import IconGmail from '../../assets/Icons/gmail.svg'
-import IconWhatsapp from '../../assets/Icons/whatsapp.svg'
+import IconGithub from '../../assets/IconsContact/github.svg'
+import IconLinkedin from '../../assets/IconsContact/linkedin.svg'
+import IconGmail from '../../assets/IconsContact/gmail.svg'
+import IconWhatsapp from '../../assets/IconsContact/whatsapp.svg'
 import { useClipboard, Tooltip } from "@chakra-ui/react";
 
 function InfoContacts() {

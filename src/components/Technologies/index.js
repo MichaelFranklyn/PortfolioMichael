@@ -1,6 +1,6 @@
-import './style.css';
+import { techArray } from '../../arraysContent/tech';
 import CardTech from '../CardTech';
-import { techArray } from '../../Content/tech'
+import './style.css';
 
 function Technologies() {
     return (

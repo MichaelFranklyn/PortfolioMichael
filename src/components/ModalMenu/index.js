@@ -1,10 +1,10 @@
 import './style.css';
 import { useNavigate } from "react-router-dom";
-import IconX from '../../assets/iconX.png'
-import Logo from '../../assets/logoMichael.png'
-import IconCasa from '../../assets/iconCasa.png'
-import IconLamp from '../../assets/iconLamp.png'
-import IconProject from '../../assets/iconProject.png'
+import IconClose from '../../assets/Icons/iconClose.png'
+import IconLogo from '../../assets/Icons/iconLogo.png'
+import IconHome from '../../assets/Icons/iconHome.png'
+import IconProject from '../../assets/Icons/iconProject.png'
+import IconAboutMe from '../../assets/Icons/iconAboutMe.png'
 
 function ModalMenu({ pagina, setOpenModal }) {
     const navigateTo = useNavigate();
@@ -14,7 +14,7 @@ function ModalMenu({ pagina, setOpenModal }) {
 
             
             <div className='iconeCloseModal'>
-                <img src={IconX} alt='icone fechar' onClick={() => setOpenModal(false)} />
+                <img src={IconClose} alt='icone fechar' onClick={() => setOpenModal(false)} />
             </div>
 
             <div className='divModalMenu'>
@@ -22,18 +22,18 @@ function ModalMenu({ pagina, setOpenModal }) {
 
                 <ul className='ulModalMenu'>
                     <div>
-                        <img src={IconCasa} alt='icone home' />
+                        <img src={IconHome} alt='icone home' />
                         <li onClick={() => navigateTo("/")} style={pagina === "home" ? { color: '#03fa6e' } : {}}>Home</li>
                     </div>
 
                     <div>
-                        <img src={IconProject} alt='icone about' />
+                        <img src={IconAboutMe} alt='icone about' />
                         <li onClick={() => navigateTo("/aboutMe")} style={pagina === "aboutMe" ? { color: '#03fa6e' } : {}}>Sobre mim</li>
 
                     </div>
 
                     <div>
-                        <img src={IconLamp} alt='icone project' />
+                        <img src={IconProject} alt='icone project' />
                         <li onClick={() => navigateTo("/projects")} style={pagina === "projects" ? { color: '#03fa6e' } : {}}>Projetos</li>
 
                     </div>
@@ -45,7 +45,7 @@ function ModalMenu({ pagina, setOpenModal }) {
             </div>
 
             <div className='headerModalMenu'>
-                <img src={Logo} alt='logo' />
+                <img src={IconLogo} alt='IconLogo' />
                 <h1>Michael Franklyn</h1>
             </div>
 

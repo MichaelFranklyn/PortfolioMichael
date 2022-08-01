@@ -1,6 +1,6 @@
 import './style.css';
 import ProjectsContent from '../ProjectsContent';
-import { projectsArray } from '../../Content/projects'
+import { projectsArray } from '../../arraysContent/projects'
 
 function Projects() {
     return (

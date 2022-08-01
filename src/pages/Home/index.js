@@ -1,6 +1,6 @@
-import './style.css';
 import Header from '../../components/Header';
 import Home from '../../components/Home';
+import './style.css';
 
 function HomePage() {
     return (
@@ -8,7 +8,6 @@ function HomePage() {
             <Header
                 pagina="home"
             />
-
             <Home />
         </div>
     );

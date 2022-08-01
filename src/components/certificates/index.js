@@ -1,7 +1,7 @@
+import { useState } from 'react';
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
+import { arrayCertificates } from '../../arraysContent/certificates';
 import './style.css';
-import { useState } from 'react'
-import { SliderData } from '../../Content/certificates'
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 function Certificates({ slides }) {
     const [current, setCurrent] = useState(0);
@@ -24,12 +24,11 @@ function Certificates({ slides }) {
             <h1>Certificados</h1>
             <p>"O conhecimento é um investimento com lucros inesgotáveis"</p>
 
-
             <div className='contentCarrossel'>
                 <FaArrowAltCircleLeft className='arrowContentCarrosel' onClick={prevSlide} />
 
                 <div className='mapContentCarrossel'>
-                    {SliderData.map((slide, index) => (
+                    {arrayCertificates.map((slide, index) => (
                         <div
                             className={index === current ? 'imgActiveContentCarrosel' : 'imgStopContentCarrosel'}
                             key={index}
@@ -45,7 +44,7 @@ function Certificates({ slides }) {
 
                 <div className='arrowCertificatesMobile'>
                     <FaArrowAltCircleLeft className='arrowContentCarroselMobile' onClick={prevSlide} />
-                    <FaArrowAltCircleRight  className='arrowContentCarroselMobile' onClick={nextSlide} />
+                    <FaArrowAltCircleRight className='arrowContentCarroselMobile' onClick={nextSlide} />
                 </div>
             </div>
         </div>

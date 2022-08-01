@@ -1,5 +1,5 @@
 import './style.css';
-import Logo from '../../assets/logoMichael.png'
+import IconLogo from '../../assets/Icons/iconLogo.png'
 import { useNavigate } from "react-router-dom";
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
         <div className="contentFooter" >
 
             <div >
-                <img onClick={() => navigateTo("/")} src={Logo} alt='logo perfil' />
+                <img onClick={() => navigateTo("/")} src={IconLogo} alt='logo perfil' />
             </div>
         </div>
     );

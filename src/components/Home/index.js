@@ -1,8 +1,8 @@
 import './style.css';
-import IconGithub from '../../assets/Icons/github.svg'
-import IconLinkedin from '../../assets/Icons/linkedin.svg'
-import IconGmail from '../../assets/Icons/gmail.svg'
-import IconWhatsapp from '../../assets/Icons/whatsapp.svg'
+import IconGithub from '../../assets/IconsContact/github.svg'
+import IconLinkedin from '../../assets/IconsContact/linkedin.svg'
+import IconGmail from '../../assets/IconsContact/gmail.svg'
+import IconWhatsapp from '../../assets/IconsContact/whatsapp.svg'
 import { useClipboard, Tooltip } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 
@@ -17,7 +17,7 @@ function Home() {
                 <h2>Olá! Eu sou</h2>
                 <h1>Michael Franklyn</h1>
                 <p>Desenvolvedor Fullstack com experiência em aplicações web</p>
-                <button className='buttonGreen' onClick={() => navigateTo("/contacts")}>Contrate-me</button>
+                <button className='buttonGreen' onClick={() => navigateTo("/contacts")}>Contato</button>
 
                 <div className='iconsLeftDivHome'>
 
@@ -50,6 +50,7 @@ function Home() {
                             )} />
                     </Tooltip>
                 </div>
+
             </div>
         </div>
     );

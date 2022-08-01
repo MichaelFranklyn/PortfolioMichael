@@ -1,8 +1,7 @@
+import Curriculo from '../../assets/Curriculo/Curriculo.pdf';
+import IconAspas from '../../assets/Icons/iconAspas.png';
+import ProfileMichael from '../../assets/ProfilePhoto/profileMichael.jpg';
 import './style.css';
-import IconAspas from '../../assets/iconAspas.png'
-import ProfileMichael from '../../assets/profileMichael.jpg'
-import Curriculo from '../../assets/Curriculo.pdf'
-
 
 function AboutMe() {
     return (
@@ -12,6 +11,7 @@ function AboutMe() {
                 <img src={ProfileMichael} alt='' />
                 <h1>Michael Franklyn</h1>
                 <h2>24 anos</h2>
+                <h2>Salvador,Ba</h2>
 
                 <div>
                     <ul>Curiosidades</ul>
@@ -35,9 +35,9 @@ function AboutMe() {
                         <span>Hard work beats talent, when talent doesn't work hard.</span>
                     </div>
                 </div>
-                <p>Desde cedo, aprendi que a presença do <span>respeito, honestidade, comunicação, efetividade e trabalho em equipe</span> é primordial para alcançar os objetivos da empresa, por isso tenho essas qualidades bem alinhadas com os meus princípios.
-                    Atualmente, estou desenvolvendo projetos pessoais e estudando na plataforma de aprendizado Alura, buscando me aprimorar tecnicamente.
-                </p>
+                <p>Desde cedo, aprendi que a presença do <span>respeito, honestidade, comunicação, efetividade e trabalho em equipe</span> é primordial para alcançar os objetivos da empresa, por isso tenho essas qualidades bem alinhadas com os meus princípios.</p>
+                <p>Como um bom autodidata, estou sempre em busca de aprimorar meus conhecimentos. Atualmente, estudo na plataforma de aprendizado Alura.
+                    Acredito fielmente que inovação e o uso das tecnologias podem ser usados para melhorar vidas.</p>
             </div>
 
         </div>

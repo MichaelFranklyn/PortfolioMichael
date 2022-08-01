@@ -1,10 +1,9 @@
 .contentAboutMePage {
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 5rem;
-
-    width: 100vw;
-    min-height: 100vh;
 }
 
 .divContentAboutMePage {
@@ -13,12 +12,3 @@
     gap: 10rem;
 }
 
-@media (max-width:600px) {
-    .contentAboutMePage {
-        gap: 5rem;
-     }
-
-    .divContentAboutMePage {
-        gap: 10rem;
-   }
-}

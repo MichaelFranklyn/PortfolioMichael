@@ -1,28 +1,27 @@
-import './style.css';
-import Header from '../../components/Header';
 import AboutMe from '../../components/AboutMe';
-import Technologies from '../../components/Technologies'
 import Certificates from '../../components/certificates';
-import Footer from '../../components/Footer'
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+import Technologies from '../../components/Technologies';
+import './style.css';
 
-import { SliderData } from '../../Content/certificates'
+import { arrayCertificates } from '../../arraysContent/certificates';
 
 
 function AboutMePage() {
-
     return (
         <div className="contentAboutMePage">
-            <Header 
+            <Header
                 pagina='aboutMe'
             />
-            
+
             <div className='divContentAboutMePage'>
                 <AboutMe />
                 <Technologies />
-                <Certificates slides={SliderData}/>
+                <Certificates slides={arrayCertificates} />
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     );
 }

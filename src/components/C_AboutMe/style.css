@@ -5,7 +5,6 @@
     gap: 4rem;
     color: var(--white);
     height: auto;
-    
 }
 
 .contentAboutMe span {
@@ -127,7 +126,7 @@
     }
 
     .profileContentAboutMe {
-        width: 50%;
+        width: 60%;
         border-top: 2px solid var(--green);
         border-left: none;
         padding-top: 1rem;

@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import AboutMePage from "./pages/AboutMe";
-import ContactsPage from "./pages/Contacts";
-import HomePage from "./pages/Home";
-import ProjectsPage from "./pages/Projects";
+import AboutMePage from "./pages/P_AboutMe";
+import ContactsPage from "./pages/P_Contacts";
+import HomePage from "./pages/P_Home";
+import ProjectsPage from "./pages/P_Projects";
 
 function RotasPrincipais() {
     return (

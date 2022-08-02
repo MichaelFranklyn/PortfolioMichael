@@ -6,11 +6,13 @@ import IconLogo from '../../assets/Icons/iconLogo.png';
 import IconProject from '../../assets/Icons/iconProject.png';
 import './style.css';
 
-function ModalMenu({ pagina, setOpenModal }) {
+function ModalMenu({ pagina, setOpenModal, openModal }) {
     const navigateTo = useNavigate();
 
+    console.log(openModal);
+
     return (
-        <div className='contentModalMenuOpen'>
+        <div className={openModal === true ? 'contentModalMenuOpen openAnimation' : openModal === false ? 'contentModalMenuOpen closeAnimation' : 'contentModalMenuNone'}>
             <div className='iconeCloseModal'>
                 <img src={IconClose} alt='icone fechar' onClick={() => setOpenModal(false)} />
             </div>

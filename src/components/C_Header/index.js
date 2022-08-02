@@ -7,7 +7,7 @@ import './style.css';
 
 function Header({ pagina }) {
     const navigateTo = useNavigate();
-    const [openModal, setOpenModal] = useState(false)
+    const [openModal, setOpenModal] = useState(null)
 
     return (
         <div className="contentHeader">
@@ -29,11 +29,11 @@ function Header({ pagina }) {
                 <span>Menu</span>
             </div>
 
-            {openModal && <ModalMenu
+            <ModalMenu
                 openModal={openModal}
                 setOpenModal={setOpenModal}
                 pagina={pagina}
-            />}
+            />
         </div>
     );
 }

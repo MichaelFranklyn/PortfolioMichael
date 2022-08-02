@@ -9,12 +9,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 12rem;
     z-index: 1;
 }
 
-.contentModalMenuOpen {
-    animation: menuModalAbrir 0.5s both;
+.contentModalMenuNone {
+    display: none;
+}
+
+.openAnimation {
+    animation: fadeInRight .5s;
+}
+
+.closeAnimation {
+    animation: fadeOutRight both .5s;
 }
 
 .iconeCloseModal img {
@@ -43,8 +50,8 @@
 .divModalMenu {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
-    padding: 1rem;
+    gap: 6rem;
+    padding: 2rem;
     border-left: 1px solid #03fa6e;
 }
 
@@ -57,7 +64,7 @@
 .ulModalMenu {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 4rem;
 }
 
 .ulModalMenu div {
@@ -99,14 +106,4 @@
     color: #272a28;
     border-radius: 8px;
     box-shadow: 0 0 5px white;
-}
-
-@keyframes menuModalAbrir {
-    0% {
-        left: 100vw;
-    }
-
-    100% {
-        left: 0;
-    }
 }

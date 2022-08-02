@@ -11,7 +11,9 @@
     gap: 1rem;
     padding: 2%;
     border-left: 5px solid var(--green);
-}
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}   
 
 .leftDivHome h1 {
     font-size: 7rem;
@@ -37,6 +39,9 @@
     align-items: center;
     gap: 3rem;
     margin-top: 4rem;
+    animation: bounce;
+    animation-duration: 2s;
+    animation-delay: 2s;
 }
 
 .iconsLeftDivHome img {
@@ -65,8 +70,8 @@
     }
 
     .leftDivHome {
-        height: 85%;
-        padding: 2rem 0 1rem 2rem;
+        height: max-content;
+        padding: 2rem;
     }
 
     .leftDivHome h1 {

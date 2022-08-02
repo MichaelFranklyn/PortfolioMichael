@@ -1,4 +1,5 @@
 import { Tooltip, useClipboard } from "@chakra-ui/react";
+import 'animate.css';
 import { useNavigate } from "react-router-dom";
 import IconGithub from '../../assets/IconsContact/github.svg';
 import IconGmail from '../../assets/IconsContact/gmail.svg';

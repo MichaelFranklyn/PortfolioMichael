@@ -4,4 +4,6 @@
     width: 100vw;
     min-height: 100vh;
     gap: 5rem;
+    animation: fadeIn;
+    animation-duration: 2s;
 }

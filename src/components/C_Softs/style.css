@@ -1,0 +1,44 @@
+.contentSofts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.leftDivSofts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.leftDivSofts h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.leftDivSofts p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--white);
+}
+
+.rightDivSofts {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+@media (max-width:900px) {
+    .leftDivSofts p {
+        text-align: center;
+    }
+
+    .rightDivSofts {
+        gap: 2rem;
+        width: 90%;
+    }
+}

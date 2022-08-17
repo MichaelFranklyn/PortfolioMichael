@@ -4,6 +4,7 @@ import Certificates from '../../components/C_Certificates';
 import Footer from '../../components/C_Footer';
 import Header from '../../components/C_Header';
 import Technologies from '../../components/C_Technologies';
+import Softs from '../../components/C_Softs'
 import './style.css';
 
 function AboutMePage() {
@@ -16,6 +17,7 @@ function AboutMePage() {
             <div className='divContentAboutMePage'>
                 <AboutMe />
                 <Technologies />
+                <Softs />
                 <Certificates slides={arrayCertificates} />
             </div>
 

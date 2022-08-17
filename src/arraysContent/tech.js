@@ -11,6 +11,7 @@ import PHP from '../assets/Tech/php.png'
 import Postgresql from '../assets/Tech/postgresql.png'
 import React from '../assets/Tech/react.png'
 import Typescript from '../assets/Tech/typescript.png'
+import Scrum from '../assets/Tech/scrum.png'
 
 export const techArray = [
     {
@@ -23,7 +24,7 @@ export const techArray = [
         imagem1: Javascript,
         imagem2: false,
         nome: 'Javascript',
-        conteudo: ["Manipulação do DOM", "Fetch API", "Metódos de Arrays", "Recursos ES6"]
+        conteudo: ["Manipulação do DOM", "Fetch API", "Metódos de Arrays", "Recursos ES6", "Programação orientada a objetos"]
     },
     {
         imagem1: Nodejs,
@@ -54,6 +55,12 @@ export const techArray = [
         imagem2: false,
         nome: 'Figma',
         conteudo: ["Reprodução fiel dos layouts"]
+    },
+    {
+        imagem1: Scrum,
+        imagem2: false,
+        nome: 'Scrum',
+        conteudo: ["Reduzir desperdícios", "Agregar valor ao projeto", "Projeto Adaptável e Transparente"]
     },
     {
         imagem1: Typescript,

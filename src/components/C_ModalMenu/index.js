@@ -9,8 +9,6 @@ import './style.css';
 function ModalMenu({ pagina, setOpenModal, openModal }) {
     const navigateTo = useNavigate();
 
-    console.log(openModal);
-
     return (
         <div className={openModal === true ? 'contentModalMenuOpen openAnimation' : openModal === false ? 'contentModalMenuOpen closeAnimation' : 'contentModalMenuNone'}>
             <div className='iconeCloseModal'>

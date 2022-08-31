@@ -19,7 +19,7 @@ function AboutMe() {
                     <li>Torcedor do Vitória</li>
                 </div>
 
-                <a href={Curriculo} download><button className='buttonGreen'>Currículo</button></a>
+                <a href={Curriculo} download="Michael Franklyn - Desenvolvedor de Software Full Stack.pdf"><button className='buttonGreen'>Currículo</button></a>
             </div>
 
             <div className='divContentAboutMe'>

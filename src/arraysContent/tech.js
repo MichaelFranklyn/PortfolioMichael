@@ -12,6 +12,7 @@ import Postgresql from '../assets/Tech/postgresql.png'
 import React from '../assets/Tech/react.png'
 import Typescript from '../assets/Tech/typescript.png'
 import Scrum from '../assets/Tech/scrum.png'
+import Mui from '../assets/Tech/mui.png'
 
 export const techArray = [
     {
@@ -61,6 +62,12 @@ export const techArray = [
         imagem2: false,
         nome: 'Scrum',
         conteudo: ["Reduzir desperdícios", "Agregar valor ao projeto", "Projeto Adaptável e Transparente"]
+    },
+    {
+        imagem1: Mui,
+        imagem2: false,
+        nome: 'Material UI',
+        conteudo: ["Layouts fluidos e responsivos", "Recursos práticos e intuitivos"]
     },
     {
         imagem1: Typescript,
